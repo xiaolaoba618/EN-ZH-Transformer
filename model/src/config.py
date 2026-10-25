@@ -23,7 +23,7 @@ config = {
     'unk_id' : sp.unk_id(),#<UNK>Token_ID
     'bos_id' : sp.bos_id(),#<BOS>Token_ID
     'eos_id' : sp.eos_id(),#<EOS>Token_ID
-    'num_workers' : 4,#训练设备数
+    'num_workers' : 2,#训练设备数
     'vocab_size' : sp.get_piece_size(),#词表数量（中英共享一张词表）
     'pe_base' : 10000.0,#旋转位置编码分母超参
     'save_every_steps' : 2000,
